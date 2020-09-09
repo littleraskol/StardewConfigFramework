@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StardewConfigFramework", "StardewConfigFramework\StardewConfigFramework.csproj", "{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}"
 EndProject
@@ -9,20 +9,33 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Debug|x86.ActiveCfg = Debug|x86
+		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Debug|x86.Build.0 = Debug|x86
 		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Release|x86.ActiveCfg = Release|x86
+		{88C67B7F-E19D-49E1-8FBB-E1119AD12B3D}.Release|x86.Build.0 = Release|x86
 		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Debug|x86.ActiveCfg = Debug|x86
+		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Debug|x86.Build.0 = Debug|x86
 		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Release|x86.ActiveCfg = Release|x86
+		{114E42A2-A904-4B6F-B41B-4CEFE87CDD69}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5F8455-479D-44C9-B355-543F35E8CDEA}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		version = 
